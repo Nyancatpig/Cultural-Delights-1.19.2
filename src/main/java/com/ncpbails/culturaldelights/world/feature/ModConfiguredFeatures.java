@@ -31,7 +31,7 @@ public class ModConfiguredFeatures {
                     BlockStateProvider.simple(ModBlocks.AVOCADO_LEAVES.get()),
                     new AcaciaFoliagePlacer(ConstantInt.of(3), ConstantInt.of(0)),
                     new TwoLayersFeatureSize(1, 0, 1))
-                    .decorators(ImmutableList.of(new CocoaDecorator(1))).ignoreVines().build());
+                    .decorators(ImmutableList.of(new AvocadoBundleTreeDecorator(1))).ignoreVines().build());
 
     public static final Holder<PlacedFeature> AVOCADO_CHECKED = PlacementUtils.register("avocado_checked", AVOCADO_TREE,
             PlacementUtils.filteredByBlockSurvival(ModBlocks.AVOCADO_SAPLING.get()));

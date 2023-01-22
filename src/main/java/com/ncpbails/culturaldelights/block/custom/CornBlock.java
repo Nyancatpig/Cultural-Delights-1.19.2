@@ -2,6 +2,7 @@ package com.ncpbails.culturaldelights.block.custom;
 
 
 import com.ncpbails.culturaldelights.block.ModBlocks;
+import com.ncpbails.culturaldelights.item.ModItems;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.server.level.ServerLevel;
@@ -29,7 +30,6 @@ import net.minecraft.world.level.block.state.StateDefinition.Builder;
 import vectorwing.farmersdelight.common.block.OrganicCompostBlock;
 import vectorwing.farmersdelight.common.block.RiceBlock;
 import vectorwing.farmersdelight.common.block.RicePaniclesBlock;
-import vectorwing.farmersdelight.common.registry.ModItems;
 
 
 import javax.annotation.Nullable;
@@ -87,7 +87,7 @@ public class CornBlock extends BushBlock implements BonemealableBlock {
     }
 
     public ItemStack getCloneItemStack(BlockGetter level, BlockPos pos, BlockState state) {
-        return new ItemStack((ItemLike) ModItems.RICE.get());
+        return new ItemStack((ItemLike) ModItems.CORN_KERNELS.get());
     }
 
     public BlockState withAge(int age) {

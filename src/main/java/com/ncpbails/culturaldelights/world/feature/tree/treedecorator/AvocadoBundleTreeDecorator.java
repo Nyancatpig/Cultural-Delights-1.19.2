@@ -1,6 +1,8 @@
 package com.ncpbails.culturaldelights.world.feature.tree.treedecorator;
 
 import com.mojang.serialization.Codec;
+import java.util.List;
+
 import com.ncpbails.culturaldelights.block.ModBlocks;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -8,22 +10,17 @@ import net.minecraft.util.RandomSource;
 import net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecorator;
 import net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecoratorType;
 
-import java.util.List;
-
 public class AvocadoBundleTreeDecorator extends TreeDecorator {
-    public static final Codec<AvocadoBundleTreeDecorator> CODEC = Codec.floatRange(0.0F, 1.0F).fieldOf("probability").xmap(AvocadoBundleTreeDecorator::new, (thing) -> {
-        return thing.probability;
+    public static final Codec<AvocadoBundleTreeDecorator> CODEC = Codec.floatRange(0.0F, 1.0F).fieldOf("probability").xmap(AvocadoBundleTreeDecorator::new, (p_69989_) -> {
+        return p_69989_.probability;
     }).codec();
     private final float probability;
 
-    public AvocadoBundleTreeDecorator(float p_i225868_1_) {
-        this.probability = p_i225868_1_;
+    public AvocadoBundleTreeDecorator(float p_69976_) {
+        this.probability = p_69976_;
     }
 
-    @Override
-    protected TreeDecoratorType<?> type() {
-        return TreeDecoratorType.LEAVE_VINE;
-    }
+    protected TreeDecoratorType<?> type() { return TreeDecoratorType.LEAVE_VINE; }
 
     public void place(TreeDecorator.Context p_226028_) {
         RandomSource randomsource = p_226028_.random();
@@ -42,7 +39,6 @@ public class AvocadoBundleTreeDecorator extends TreeDecorator {
                         }
                     }
                 }
-
             });
         }
     }
