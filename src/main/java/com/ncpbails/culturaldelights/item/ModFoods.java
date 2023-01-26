@@ -19,6 +19,7 @@ public class ModFoods {
     public static final FoodProperties SMOKED_WHITE_EGGPLANT = (new FoodProperties.Builder()).nutrition(3).saturationMod(0.5F).build();
     public static final FoodProperties WHITE_EGGPLANT = (new FoodProperties.Builder()).nutrition(1).saturationMod(0.1F).build();
     public static final FoodProperties CORN_COB = (new FoodProperties.Builder()).nutrition(2).saturationMod(0.4F).build();
+    public static final FoodProperties GINGER = (new FoodProperties.Builder()).nutrition(2).saturationMod(0.5F).build();
     public static final FoodProperties SQUID = (new FoodProperties.Builder()).nutrition(2).saturationMod(0.2F).build();
     public static final FoodProperties COOKED_SQUID = (new FoodProperties.Builder()).nutrition(6).saturationMod(0.8F).build();
     public static final FoodProperties GLOW_SQUID = (new FoodProperties.Builder()).nutrition(2).saturationMod(0.2F)
