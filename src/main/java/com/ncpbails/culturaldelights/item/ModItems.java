@@ -107,6 +107,9 @@ public class ModItems {
     public static final RegistryObject<Item> ELOTE = ITEMS.register("elote",
             () -> new Item(new Item.Properties().tab(FarmersDelight.CREATIVE_TAB).food(ModFoods.ELOTE)));
 
+    public static final RegistryObject<Item> EMPANADA = ITEMS.register("empanada",
+            () -> new Item(new Item.Properties().tab(FarmersDelight.CREATIVE_TAB).food(ModFoods.EMPANADA)));
+
     public static final RegistryObject<Item> HEARTY_SALAD = ITEMS.register("hearty_salad",
             () -> new BowlFoodItem(new Item.Properties().stacksTo(16).tab(FarmersDelight.CREATIVE_TAB).food(ModFoods.HEARTY_SALAD)));
 

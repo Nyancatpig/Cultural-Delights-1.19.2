@@ -44,7 +44,8 @@ public class ExoticRollMedleyBlock extends FeastBlock {
 
     public ExoticRollMedleyBlock(BlockBehaviour.Properties properties) {
         super(properties, ModItems.TROPICAL_ROLL, true);
-        this.riceRollServings = Arrays.asList(ModItems.PUFFERFISH_ROLL, ModItems.PUFFERFISH_ROLL, ModItems.TROPICAL_ROLL, ModItems.TROPICAL_ROLL, ModItems.TROPICAL_ROLL, ModItems.CHICKEN_ROLL_SLICE, ModItems.CHICKEN_ROLL_SLICE, ModItems.CHICKEN_ROLL_SLICE);
+        this.riceRollServings = Arrays.asList(ModItems.PUFFERFISH_ROLL, ModItems.PUFFERFISH_ROLL, ModItems.TROPICAL_ROLL, ModItems.TROPICAL_ROLL, ModItems.TROPICAL_ROLL,
+                ModItems.CHICKEN_ROLL_SLICE, ModItems.CHICKEN_ROLL_SLICE, ModItems.CHICKEN_ROLL_SLICE);
     }
 
     public IntegerProperty getServingsProperty() {

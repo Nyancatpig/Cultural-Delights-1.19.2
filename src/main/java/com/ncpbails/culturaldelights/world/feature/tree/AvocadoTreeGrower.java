@@ -13,6 +13,6 @@ public class AvocadoTreeGrower extends AbstractTreeGrower {
     @Nullable
     @Override
     protected Holder<? extends ConfiguredFeature<?, ?>> getConfiguredFeature(RandomSource p_222910_, boolean pLargeHive) {
-        return ModConfiguredFeatures.AVOCADO_TREE;
+        return ModConfiguredFeatures.AVOCADO_TREE.getHolder().get();
     }
 }

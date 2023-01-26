@@ -50,7 +50,8 @@ public class ModFoods {
     public static final FoodProperties TORTILLA = (new FoodProperties.Builder()).nutrition(4).saturationMod(0.6F).build();
     public static final FoodProperties POPCORN = (new FoodProperties.Builder()).nutrition(1).saturationMod(0.2F).fast().build();
     public static final FoodProperties TORTILLA_CHIPS = (new FoodProperties.Builder()).nutrition(2).saturationMod(0.3F).fast().build();
-    public static final FoodProperties ELOTE = (new FoodProperties.Builder()).nutrition(6).saturationMod(0.8F).build();
+    public static final FoodProperties ELOTE = (new FoodProperties.Builder()).nutrition(7).saturationMod(0.7F).build();
+    public static final FoodProperties EMPANADA = (new FoodProperties.Builder()).nutrition(6).saturationMod(0.6F).build();
     public static final FoodProperties BEEF_BURRITO = (new FoodProperties.Builder()).nutrition(14).saturationMod(0.7F).build();
     public static final FoodProperties MUTTON_SANDWICH = (new FoodProperties.Builder()).nutrition(10).saturationMod(0.8F).build();
     public static final FoodProperties AVOCADO_TOAST = (new FoodProperties.Builder()).nutrition(4).saturationMod(0.5F).build();

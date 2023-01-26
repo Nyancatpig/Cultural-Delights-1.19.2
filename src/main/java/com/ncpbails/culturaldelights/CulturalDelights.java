@@ -4,7 +4,7 @@ import com.mojang.logging.LogUtils;
 import com.ncpbails.culturaldelights.block.ModBlocks;
 import com.ncpbails.culturaldelights.block.entity.ModBlockEntities;
 import com.ncpbails.culturaldelights.item.ModItems;
-import com.ncpbails.culturaldelights.world.biomemods.ModBiomeModifiers;
+import com.ncpbails.culturaldelights.world.feature.ModConfiguredFeatures;
 import com.ncpbails.culturaldelights.world.feature.ModPlacedFeatures;
 import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
@@ -47,7 +47,7 @@ public class CulturalDelights
 
         ModItems.register(eventBus);
         ModBlocks.register(eventBus);
-        ModBiomeModifiers.register(eventBus);
+        ModConfiguredFeatures.register(eventBus);
         ModPlacedFeatures.register(eventBus);
 
 
@@ -106,9 +106,6 @@ public class CulturalDelights
 
         // 85% chance
         ComposterBlock.COMPOSTABLES.put(ModItems.POPCORN.get(), 0.85F);
-
-        // 100% chance
-        ComposterBlock.COMPOSTABLES.put(ModBlocks.AVOCADO_BUNDLE.get(), 0.65F);
     }
 
     //public static void registerAnimalFeeds() {

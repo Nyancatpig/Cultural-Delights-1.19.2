@@ -30,6 +30,7 @@
   "item.culturaldelights.cooked_calamari": "Cooked Calamari",
 
   "item.culturaldelights.elote": "Elote",
+  "item.culturaldelights.empanada": "Empanada",
   "item.culturaldelights.hearty_salad": "Hearty Salad",
   "item.culturaldelights.beef_burrito": "Beef Burrito",
   "item.culturaldelights.mutton_sandwich": "Mutton Sandwich",
@@ -59,7 +60,7 @@
   "block.culturaldelights.avocado_log": "Avocado Log",
   "block.culturaldelights.avocado_wood": "Avocado Wood",
   "block.culturaldelights.avocado_leaves": "Avocado Leaves",
-  "block.culturaldelights.avocado_leaf_carpet": "Avocado Leaf Carpet",
+  "block.culturaldelights.fruiting_avocado_leaves": "Fruiting Avocado Leaves",
   "block.culturaldelights.avocado_sapling": "Avocado Sapling",
   "block.culturaldelights.avocado_pit": "Avocado Pit",
   "block.culturaldelights.avocado_crate": "Avocado Crate",
