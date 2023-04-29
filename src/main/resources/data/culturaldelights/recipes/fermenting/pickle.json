@@ -1,5 +1,7 @@
 {
   "type": "brewinandchewin:fermenting",
+  "experience": 0.6,
+  "fermentingtime": 12000,
   "ingredients": [
     {
       "item": "culturaldelights:cucumber"
@@ -14,14 +16,10 @@
       "item": "culturaldelights:cucumber"
     }
   ],
+  "recipe_book_tab": "misc",
   "result": {
-    "item": "culturaldelights:pickle",
-    "count": 4
+    "count": 4,
+    "item": "culturaldelights:pickle"
   },
-  "liquid": {
-    "item": "farmersdelight:apple_cider"
-  },
-  "experience": 0.6,
-  "cookingtime": 12000,
-  "temperature": 3
+  "temperature": 2
 }
