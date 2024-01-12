@@ -30,7 +30,7 @@ import static com.ncpbails.culturaldelights.world.feature.ModConfiguredFeatures.
 
     public static final RegistryObject<PlacedFeature> AVOCADO_PLACED = PLACED_FEATURES.register("avocado_placed",
             () -> new PlacedFeature(ModConfiguredFeatures.AVOCADO_SPAWN.getHolder().get(), VegetationPlacements.treePlacement(
-                    PlacementUtils.countExtra(1, 0.1f, 1))));
+                    PlacementUtils.countExtra(0, 0.1f, 1))));
 
     public static final RegistryObject<PlacedFeature> WILD_CORN_PLACED = PLACED_FEATURES.register("wild_corn_placed",
             () -> new PlacedFeature(ModConfiguredFeatures.WILD_CORN.getHolder().get(), List.of(RarityFilter.onAverageOnceEvery(25),

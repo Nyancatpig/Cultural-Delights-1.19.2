@@ -50,14 +50,14 @@ public class ModConfiguredFeatures {
                             BlockStateProvider.simple(ModBlocks.AVOCADO_LOG.get()),
                             new StraightTrunkPlacer(3, 2, 0),
                             new WeightedStateProvider(SimpleWeightedRandomList.<BlockState>builder().add(ModBlocks.AVOCADO_LEAVES.get().defaultBlockState(),
-                                    3).add(ModBlocks.FRUITING_AVOCADO_LEAVES.get().defaultBlockState().setValue(FruitingLeaves.AGE, 4), 1)),
+                                    4).add(ModBlocks.FRUITING_AVOCADO_LEAVES.get().defaultBlockState().setValue(FruitingLeaves.AGE, 4), 1)),
                             new AcaciaFoliagePlacer(ConstantInt.of(3), ConstantInt.of(0)),
                             new TwoLayersFeatureSize(1, 0, 1)).ignoreVines().build()));
     public static final RegistryObject<ConfiguredFeature<?, ?>> AVOCADO_SPAWN =
             CONFIGURED_FEATURES.register("avocado_spawn", () -> new ConfiguredFeature<>(Feature.RANDOM_SELECTOR,
                     new RandomFeatureConfiguration(List.of(new WeightedPlacedFeature(
                             ModPlacedFeatures.AVOCADO_CHECKED.getHolder().get(),
-                            0.5F)), ModPlacedFeatures.AVOCADO_CHECKED.getHolder().get())));
+                            0.2F)), ModPlacedFeatures.AVOCADO_CHECKED.getHolder().get())));
     public static final RegistryObject<ConfiguredFeature<?, ?>> AVOCADO_PIT =
             CONFIGURED_FEATURES.register("avocado_pit", () ->
                     new ConfiguredFeature<>(Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(

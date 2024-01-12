@@ -60,9 +60,6 @@ public class ModItems {
     public static final RegistryObject<Item> SMOKED_TOMATO = ITEMS.register("smoked_tomato",
             () -> new Item(new Item.Properties().tab(FarmersDelight.CREATIVE_TAB).food(ModFoods.SMOKED_TOMATO)));
 
-    public static final RegistryObject<Item> SMOKED_CORN = ITEMS.register("smoked_corn",
-            () -> new Item(new Item.Properties().tab(FarmersDelight.CREATIVE_TAB).food(ModFoods.SMOKED_CORN)));
-
     public static final RegistryObject<Item> SMOKED_CUT_EGGPLANT = ITEMS.register("smoked_cut_eggplant",
             () -> new Item(new Item.Properties().tab(FarmersDelight.CREATIVE_TAB).food(ModFoods.SMOKED_CUT_EGGPLANT)));
 
